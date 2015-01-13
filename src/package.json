@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/twg/trendsetter.git"
+    "url": "https://github.com/trendsetter/trendsetter.git"
   },
   "main": "./lib/trendsetter",
   "keywords": [
@@ -24,10 +24,10 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/twg/trendsetter/issues"
+    "url": "https://github.com/trendsetter/trendsetter/issues"
   },
-  "homepage": "https://github.com/twg/trendsetter",
-  "devDependencies": {
+  "homepage": "https://github.com/trendsetter/trendsetter",
+  "dependencies": {
     "handlebars": "^2.0.0",
     "he": "^0.5.0",
     "html2jade": "^0.8.1",
