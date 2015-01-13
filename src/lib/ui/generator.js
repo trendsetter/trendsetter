@@ -33,14 +33,15 @@ function generateHtml(data){
 	data = { items: data };
 
 	// fetch the template file
-	var file = fs.readFileSync('src/lib/ui/template.html', 'utf8');
+	//var file = fs.readFileSync('src/lib/ui/template.html', 'utf8');
+	var file = fs.readFileSync(__dirname + '/template.html', 'utf8');
 
 	// add css into the head of the template
-	var css = fs.readFileSync('src/lib/ui/trendsetter.css', 'utf8');
+	var css = fs.readFileSync(__dirname + '/trendsetter.css', 'utf8');
 	file = file.replace('{{css}}', css);
 
 	// add javascript into the head of the template
-	var js = fs.readFileSync('src/lib/ui/trendsetter.js', 'utf8');
+	var js = fs.readFileSync(__dirname + '/trendsetter.js', 'utf8');
 	file = file.replace('{{js}}', js);
 
 	// compile the template into a Handlebars object
