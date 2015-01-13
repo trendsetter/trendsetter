@@ -6,7 +6,10 @@ var concat = require('gulp-concat');
 
 gulp.task('build-css', function(){
 	gulp.src('assets/stylesheets/styles.styl')
-		.pipe(stylus({cache: false}))
+		.pipe(stylus({
+			cache: false,
+			compress: false
+		}))
 		.pipe(gulp.dest('public/'));
 });
 

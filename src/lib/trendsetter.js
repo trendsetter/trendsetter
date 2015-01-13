@@ -3,11 +3,12 @@ var generator = require('./ui/generator');
 var yaml = require('js-yaml');
 
 // main interface
-module.exports = function(str){
+module.exports = function(data){
 
 	// create styleguide
-	var content = extractComments(str);
+	var content = extractComments(data);
 	content = cleanComments(content);
+
 	content = generator(content);
 
 	// write styleguide to console for testing
