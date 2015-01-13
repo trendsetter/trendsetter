@@ -2,7 +2,7 @@
   "author": "Mark Appleby",
   "name": "trendsetter",
   "description": "Parse front-end styles and generate a styleguide.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/trendsetter/trendsetter.git"
