@@ -5,7 +5,7 @@ var serveStatic = require('serve-static');
 var trendsetter = require('../src/lib/trendsetter.js');
 var fs = require('fs');
 var file = fs.readFileSync('public/styles.css', 'utf8');
-file = trendsetter.parse(file);
+file = trendsetter(file);
 // trendsetter test - end
 
 connect().use(serveStatic(__dirname+'/public/')).listen(8080);

@@ -11,7 +11,7 @@ if(process.argv.length > 2){
 
 	if(fs.existsSync(file)){
 		var content = fs.readFileSync(file, 'utf8');
-		content = trendsetter.parse(content);
+		content = trendsetter(content);
 	}
 	else{
 		console.log("Error: '" + file + "' not found");
