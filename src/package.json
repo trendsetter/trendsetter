@@ -1,0 +1,38 @@
+{
+  "author": "Mark Appleby",
+  "name": "trendsetter",
+  "description": "Parse front-end styles and generate a styleguide.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twg/trendsetter.git"
+  },
+  "main": "./lib/trendsetter",
+  "keywords": [
+    "styleguide",
+    "css",
+    "docs"
+  ],
+  "bin": {
+    "trendsetter": "./bin/trendsetter"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twg/trendsetter/issues"
+  },
+  "homepage": "https://github.com/twg/trendsetter",
+  "devDependencies": {
+    "handlebars": "^2.0.0",
+    "he": "^0.5.0",
+    "html2jade": "^0.8.1",
+    "js-yaml": "^3.2.5",
+    "jsdom-little": "^0.10.5",
+    "micromarkdown": "^0.3.1"
+  }
+}
