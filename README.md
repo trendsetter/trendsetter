@@ -10,10 +10,13 @@ As awesome as front-end frameworks are, sometimes you just want to roll your own
 
 There are a number of different ways you can integrate Trendsetter into a project:
 
-### Install via gulp-trendsetter (recommended)
+1. Install via gulp-trendsetter (recommended)
+1. OR install the Trendsetter Node package
+1. OR run from the command line
+1. OR install via Bower
 
-### Install the Trendsetter Node package
+##Roadmap
 
-### Run from the command line
-
-### Install via Bower
+- integrate Mocha and Chai and write tests for exisiting code
+- intergrate with Travis CI and display "build passing" in repo readme
+- setup Angular Trendsetter user interface
