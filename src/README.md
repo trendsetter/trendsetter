@@ -1,4 +1,3 @@
 #Trendsetter
----
 
-Parse front-end styles and generate a styleguide.
+Trendsetter is Node.js package for generating beautiful interactive styleguides with ease. 
