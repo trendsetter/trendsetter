@@ -10,10 +10,10 @@ As awesome as front-end frameworks are, sometimes you just want to roll your own
 
 There are a number of different ways you can integrate Trendsetter into a project:
 
-1. Install via gulp-trendsetter (recommended)
+1. Install gulp-trendsetter and integrate with Gulp (recommended)
 1. OR install the Trendsetter Node package
-1. OR run from the command line
-1. OR install via Bower
+1. OR install Trendsetter globally and run from the command line
+1. OR install Trendsetter via Bower
 
 ##Roadmap
 
