@@ -37,7 +37,14 @@
   },
   "devDependencies": {
     "chai": "^1.10.0",
+    "connect": "^3.3.4",
     "gulp": "^3.8.10",
-    "gulp-mocha": "^2.0.0"
+    "gulp-concat": "^2.4.3",
+    "gulp-jade": "^0.10.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-nodemon": "^1.0.5",
+    "gulp-stylus": "^2.0.0",
+    "nodemon": "^1.2.1",
+    "serve-static": "^1.8.0"
   }
 }

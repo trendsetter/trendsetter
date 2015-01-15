@@ -1,6 +1,6 @@
 var root = process.cwd() + '/';
 var should = require('chai').should();
-var extractComments = require(root + 'lib/tasks/extractComments.js');
+var extractComments = require(root + 'lib/util/extractComments.js');
 
 describe('extractComments', function(){
 	describe('no comments', function(){
