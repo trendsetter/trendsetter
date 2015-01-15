@@ -1,6 +1,6 @@
 # Trendsetter
 
-Trendsetter is Node.js package for generating beautiful interactive styleguides with ease. 
+Trendsetter is a Node.js package for generating beautiful interactive styleguides with ease. 
 
 Front-end frameworks like [Bootstrap](http://getbootstrap.com/) and [Foundation](http://foundation.zurb.com/) are awesome. The most awesome feature of these frameworks is not their plethora of shiny components but instead their thorough documentation. Having extensive front-end documentation helps prevent developers from writing redundant code, makes it easier to on-board new developers to a project, and ensures better communication between front-end and back-end devs.
 
