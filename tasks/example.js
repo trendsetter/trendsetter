@@ -4,7 +4,7 @@ var jade = require('gulp-jade');
 var stylus = require('gulp-stylus');
 var concat = require('gulp-concat');
 
-gulp.task('build-css', function(){
+gulp.task('example/css', function(){
 	gulp.src('example/assets/stylesheets/styles.styl')
 		.pipe(stylus({
 			cache: false,
@@ -13,25 +13,25 @@ gulp.task('build-css', function(){
 		.pipe(gulp.dest('example/public/'));
 });
 
-gulp.task('build-html', function(){
+gulp.task('example/html', function(){
 	gulp.src('example/assets/*.jade')
 		.pipe(jade())
 		.pipe(gulp.dest('example/public/'));
 });
 
-gulp.task('build-js', function(){
+gulp.task('example/js', function(){
 	gulp.src('example/assets/javascript/*.js')
 		.pipe(concat('script.js'))
 		.pipe(gulp.dest('example/public/'));
 });
 
-gulp.task('watch', function(){
-	gulp.watch(['example/assets/stylesheets/**/*.styl'], ['build-css']);
-	gulp.watch(['example/assets/javascript/**/*.js'], ['build-js']);
-	gulp.watch(['example/assets/**/*.jade'], ['build-html']);
+gulp.task('example/watch', function(){
+	gulp.watch(['example/assets/stylesheets/**/*.styl'], ['example/css']);
+	gulp.watch(['example/assets/javascript/**/*.js'], ['example/js']);
+	gulp.watch(['example/assets/**/*.jade'], ['example/html']);
 });
 
-gulp.task('start-server', function() {
+gulp.task('example/server', function() {
   nodemon({
     verbose: false,
     script: 'example/index.js',
@@ -43,4 +43,5 @@ gulp.task('start-server', function() {
   })
 });
 
-gulp.task('example', ['build-html', 'build-js', 'build-css', 'start-server', 'watch']);
+gulp.task('example/build', ['example/html', 'example/js', 'example/css']);
+gulp.task('example', ['example/build', 'example/server', 'example/watch']);

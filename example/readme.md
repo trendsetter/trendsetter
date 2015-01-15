@@ -4,7 +4,6 @@ This is a small sample project to test out the various methods of integrating Tr
 
 ##Getting Started
 
-1. `cd` into the `example` directory.
 1. Run `npm install` to fetch the required Node modules.
-1. Start Gulp by running `gulp`.
-1. Visit `http://localhost:8080` in your browser.
+1. Build and start the example server with `gulp example`.
+1. Visit [http://localhost:8080](http://localhost:8080) in your browser.
