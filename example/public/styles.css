@@ -6,3 +6,22 @@ body {
   border-radius: 5px;
   border: 1px solid #ccc;
 }
+/*gd
+name: Card
+section: Objects
+description: hello world
+*/
+.card {
+  background: #008000;
+}
+/*gd
+name: Header
+section: Global
+description: |
+	#hello
+	world this is
+	a test
+*/
+.header {
+  background: #f00;
+}
