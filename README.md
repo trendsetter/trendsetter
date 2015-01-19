@@ -17,6 +17,6 @@ There are a number of different ways you can integrate Trendsetter into a projec
 
 ##Roadmap
 
-- integrate Mocha and Chai and write tests for exisiting code (revise tests)
+- ~~integrate Mocha and Chai and write tests for exisiting code (revise tests)~~
 - intergrate with Travis CI and display "build passing" in repo readme
 - setup Angular Trendsetter user interface
