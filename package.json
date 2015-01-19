@@ -17,7 +17,7 @@
     "trendsetter": "./bin/trendsetter"
   },
   "scripts": {
-    "test": "gulp test"
+    "test": "mocha test/*.js"
   },
   "engines": {
     "node": "*"
