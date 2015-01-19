@@ -1,5 +1,7 @@
 # Trendsetter
 
+[![Build Status](https://travis-ci.org/trendsetter/trendsetter.svg?branch=master)](https://travis-ci.org/trendsetter/trendsetter)
+
 Trendsetter is a Node.js package for generating beautiful interactive styleguides with ease. 
 
 Front-end frameworks like [Bootstrap](http://getbootstrap.com/) and [Foundation](http://foundation.zurb.com/) are awesome. The most awesome feature of these frameworks is not their plethora of shiny components but instead their thorough documentation. Having extensive front-end documentation helps prevent developers from writing redundant code, makes it easier to on-board new developers to a project, and ensures better communication between front-end and back-end devs.
@@ -18,5 +20,5 @@ There are a number of different ways you can integrate Trendsetter into a projec
 ##Roadmap
 
 - ~~integrate Mocha and Chai and write tests for exisiting code (revise tests)~~
-- intergrate with Travis CI and display "build passing" in repo readme
+- ~~intergrate with Travis CI and display "build passing" in repo readme~~
 - setup Angular Trendsetter user interface
