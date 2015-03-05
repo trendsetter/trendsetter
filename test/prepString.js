@@ -8,25 +8,25 @@ describe('prepString()', function(){
 		var input = 'foo\tbar';
 		var output = 'foo  bar';
 		assert.equal(prepString(input), output);
-	})
+	});
 
 	it('should wrap single line values in quotes', function(){
 		var input = 'foo: bar';
 		var output = "foo: 'bar'";
 		assert.equal(prepString(input), output);
-	})
+	});
 
 	it('should wrap multiple single line values in quotes (individually)', function(){
 		var input = 'foo: bar\nlorem: ipsum dolor sit';
 		var output = "foo: 'bar'\nlorem: 'ipsum dolor sit'";
 		assert.equal(prepString(input), output);
-	})
+	});
 
 	it('should remove trailing whitespace', function(){
 		var input = '   foo: bar    ';
 		var output = "foo: 'bar'";
 		assert.equal(prepString(input), output);
-	})
+	});
 
 	it('should return valid YAML when valid YAML is passed in', function(){
 		var input = '' +
@@ -46,6 +46,6 @@ describe('prepString()', function(){
 		  "another: 'single liner'";
 
 		assert.equal(prepString(input), output);
-	})
+	});
 
 });

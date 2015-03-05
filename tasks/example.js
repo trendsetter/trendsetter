@@ -40,7 +40,7 @@ gulp.task('example/server', function() {
     env: {
       NODE_ENV: 'development'
     }
-  })
+  });
 });
 
 gulp.task('example/build', ['example/html', 'example/js', 'example/css']);
